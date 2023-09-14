@@ -1,0 +1,451 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.main-wrapper {
+    width: 820px;
+    margin: auto;
+}
+
+
+.clipboard-logo {
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+.title-section, .last-section {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title-section p, .last-section p {
+    font-size: 15px;
+    margin: 10px 30px 30px 30px;
+}
+
+.info {
+    color:  hsl(201, 11%, 66%);
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    border-radius: 17px;
+    border: none;
+    margin-bottom: 30px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    cursor: pointer;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 12px;
+
+}
+
+.button1 {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 1px 5px 0px rgba(38, 186, 164, 1);
+    color: white;
+    font-size: 12px;
+}
+
+.button1:hover {
+    background-color: hsl(171, 66%, 48%);
+}
+
+
+.button2 {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 1px 5px 0px rgba(97, 115, 255, 1) ;
+    font-size: 12px;
+    color: white;
+
+}
+
+.button2:hover {
+    background-color: hsl(233, 91%, 70%);
+}
+
+
+.snippets {
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.keep-track-of-snippets-title {
+    margin-bottom: 20px;
+}
+
+.computer-image img {
+    width: 370px;
+    height: 290px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+    margin-left: -12px;
+}
+
+.snippets-image-and-features-flex {
+    display: flex;
+}
+
+.snippets-pointers {
+    margin-top: 90px;
+    margin-left: 70px;
+    margin-right: 130px;
+    line-height: 2;
+    font-size: 13px;
+}
+
+.clipboard {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 165px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.clipboard h2 {
+    margin-bottom: 15px
+}
+
+.clipboard img {
+    width: 470px;
+    height: 310px;
+    margin-top: 50px;
+}
+
+.icons-and-description {
+    display: flex;
+    width: 700px;
+    margin-bottom: 80px;
+    margin-top: 60px;
+    margin-left: 80px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 2;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.create-blacklists {
+    width: 300px;
+    height: 100%;
+    margin-right: 15px;
+}
+
+.plain-text-snippets {
+    height: 21vh;
+}
+
+.sneak-preview {
+    height: 20vh;
+    margin-left: -5px;
+}
+.icons-and-description img {
+    width: 30px;
+    margin-bottom: 20px;
+}
+.sneak-preview {
+    margin-top: 6px;
+}
+
+
+.company-icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.company-icons img {
+    width: 100px;
+}
+
+
+.main-wrapper-footer {
+    background-color: hsl(210, 5%, 91%);
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 920px;
+    margin: auto;
+}
+
+.clipboard-logo-footer {
+    width: 40px;
+}
+
+.footer-links {
+    height: 100%;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-links a {
+    text-decoration: none;    
+    color: black;
+}
+
+.footer-links a:hover {
+    color: #2acbb3;
+}
+
+.footer-socialmedia-icons {
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+
+    }
+
+    .clipboard-logo {
+        width: 120px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .main-wrapper {
+        width: 400px;
+        margin: auto;
+    }
+    
+    .title-section, .last-section {
+        margin: 26.5px;
+        margin-bottom: 60px;
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    button {
+        width: 300px;
+        height: 50px;
+        border-radius: 30px;
+        margin-bottom: 10px;
+    }
+
+
+    .buttons {
+        flex-direction: column;
+        margin-bottom: 80px;
+        margin-top: 20px;
+    }
+
+    .button1 {
+        font-size: 16px;
+    }
+
+    .button2 {
+        font-size: 16px;
+
+    }
+
+    .snippets {
+        margin-left: 44px;
+        margin-right: 44px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .keep-track-of-snippets-title {
+        font-size: 28px;
+    }
+
+    .computer-image img {
+        width: 325px;
+        height: 240px;
+        display: block;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 90px;
+    
+    }
+
+    .snippets-image-and-features-flex {
+        display: block;
+    }
+
+    .snippets-pointers {
+        width: 300px;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 80px;
+        margin-top: -40px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .snippets-pointers h3 {
+        font-size: 26px;
+        margin-bottom: 10px;
+
+    }
+
+    .snippets-pointers p {
+        margin-bottom: 40px;
+
+    }
+
+    .clipboard {
+        font-size: 15px;
+        margin: 190px 60px 30px 60px;
+        width: 300px;
+        height: 100%;
+        margin: auto;
+    }
+
+    .clipboard h2 {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 100px;
+        line-height: 1.2;
+    }
+
+    .clipboard img {
+        width: 360px;
+        height: 230px;
+        margin-top: 60px;
+ 
+    }
+
+    .icons-and-description img {
+        width: 40px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    } 
+
+    .icons-and-description {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: -30px;
+        font-size: 15px;
+        margin: auto;
+
+    }
+
+    .icons-and-description h3 {
+        font-size: 24px;
+    }
+
+    .supercharge, .sneak {
+        margin-bottom: 90px;
+
+    }
+
+    .plain-text-snippets {
+        margin-top: 30px;
+    }
+
+   .sneak-preview {
+        margin-top: 70px;
+        margin-bottom: 150px;
+   }
+
+    .company-icons {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        gap: 70px;
+        margin-top: 40px;
+        margin-bottom: 150px;
+    }
+
+    .company-icons img {
+        width: 120px;
+    }
+
+    .last-section h2 {
+        font-size: 29px;
+        line-height: 1.2;
+    }
+
+    .main-wrapper-footer {
+        background-color: hsl(210, 8%, 95%);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        max-width: 920px;
+        margin: auto;
+    }
+    .clipboard-logo-footer {
+        width: 50px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .footer-links a {
+        font-size: 19px;  
+        line-height: 2;
+        margin-top: 20px;
+    }
+
+    .footer-links {
+        height: 100%;
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    .footer-socialmedia-icons {
+        display: flex;
+        gap: 40px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+  
